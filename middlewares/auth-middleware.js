@@ -36,7 +36,7 @@ module.exports = async (req, res, next) => {
   } catch (error) {
     res.clearCookie("authorization");
     return res.status(403).json({
-      errorMessage: "전달된 쿠키에서 문제가 발생하였습니다.????",
+      errorMessage: "전달된 쿠키에서 문제가 발생하였습니다.!!!!",
     });
   }
 };
